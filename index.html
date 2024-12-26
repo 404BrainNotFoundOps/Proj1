@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+<!--    <link rel="stylesheet" href="style.css">-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            /*box-sizing: border-box;*/
+            /*background-color:#1f1f1f;*/
+        }
+        .container{
+            display: flex;
+            margin-top: 0;
+            height: 100vh;
+            width: 100vw;
+            font-size: 0.8rem;
+            font-family: 'Poppins', sans-serif;
+            background-color: #1f1f1f;
+        }
+        .login{
+            background-color: white;
+            margin-top: 100px;
+            margin-left: 100px;
+            height: 75vh;
+            width:39vw;
+            border: 2px solid #1f1f1f;
+            border-radius: 20px;
+        }
+        .credentials{
+            margin:auto ;
+            /*border: 2px solid #1f1f1f;*/
+            /*border-radius: 15px;*/
+            width: 370px;
+            height: 40px;
+        }
+        .Google{
+
+            display: flex;
+            border: 1px solid black;
+            border-radius: 30px;
+            width: 400px;
+            height: 40px;
+            align-items: center;
+            margin: auto ;
+            justify-content: center;
+            gap: 20px;
+            font-size: large;
+            /*font-weight: lighter;*/
+        }
+        .Texts{
+            margin-bottom: 0;
+            /*margin-top: 10px;*/
+            margin-left:100px;
+            font-weight: lighter;
+        }
+        .text3{
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+        .image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .start{
+            margin-top: 40px;
+            margin-bottom: 20px;
+            margin-left:99px;
+            font-size: 1.5rem;
+            font-weight: normal;
+        }
+        .but{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 1rem;
+
+        }
+        .button{
+            margin-bottom: 40px;
+            margin-top: 40px;
+            border:1px solid #1f1f1f;
+            border-radius: 30px;
+            /*justify-content: normal;*/
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 40px;
+            background-color: #1f1f1f;
+        }
+        a{
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+        .sign{
+            color: #1f1f1f;
+        }
+        a:hover{
+            opacity: 25%;
+            color: #111;
+            background-color: #ffffff;
+            /*color: #000000;*/
+        }
+
+        label {
+            width:500px;
+            /*display: inline-block;*/
+        }
+        .pass{
+            margin-bottom: 0;
+            display: flex;
+            gap: 245px;
+            /*justify-content: center;*/
+            align-items: center;
+        }
+        .pass img {
+            width: 50px;
+            height: 20px;
+            margin-bottom: 0;
+            margin-top: 0;
+
+        }
+        .img1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 378px;
+            height: 378px;
+            translate: 60px 170px;
+
+        }
+        .place h2{
+            font-size: 2rem;
+            color: #ffffff;
+            translate: 130px 130px;
+        }
+        .place p{
+            width:80%;
+            /*height: 250px;*/
+            word-wrap: normal;
+            font-size: 1.5rem;
+            color: #ffffff;
+            translate: 130px 130px;
+        }
+        .name{
+            display: flex;
+            gap: 1.7vw;
+            /*align-items: center;*/
+            margin-left: 6.7vw;
+        }
+        .text1{
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="place">
+        <h2>Placeholder</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        <img class="img1" src="Illustration.png" />
+    </div>
+    <div class="login">
+        <h2 class  = "start">Sign up now</h2>
+        <div class="name">
+
+            <div class = "name1">
+                <h3 class = "text1">First name</h3>
+                <label for="first"></label>
+                <input style="height:40px;  border :1px solid black  ; border-radius:  15px; " type="text" id="first" name ="Email address"   size="25">
+            </div>
+            <div class = "name1">
+                <h3 class = "text1">Last name</h3>
+                <label for="last"></label>
+                <input style="height:40px;  border :1px solid black  ; border-radius:  15px; " type="text" id="last" name ="Email address"   size="25">
+            </div>
+        </div>
+        <h3 class = "Texts pp">Email address</h3>
+        <div class = "credentials">
+            <label for="Email address"></label>
+            <input style="height:40px;  border :1px solid black  ; border-radius:  15px; " type="text" id="Email address" name ="Email address"   size="55">
+        </div>
+        <h3 class  = "Texts">Phone number</h3>
+        <div class="credentials">
+            <label for = "Mobile"></label>
+            <input style="height:40px;  border :1px solid black  ; border-radius:  15px; " type="tel" id="Mobile" name = "mobile number" size = "55 ">
+        </div>
+        <div class="pass">
+            <h3 class = "Texts">Password</h3>
+            <a href=""> <img src="see.png" /></a>
+        </div>
+        <div class = "credentials">
+            <label for="Password"></label>
+            <input   style="height:40px;  border :1px solid black  ; border-radius:  15px; " type="text" id="Password" name ="Email address" maxlength="20" minlength="8"  size="55" height="4">
+        </div>
+        <h4 class = "Texts text3" >Use 8 or more characters with a mix of letters, numbers & symbols</h4>
+        <div class="but">
+            <a class = "button" href="">Sign up</a>
+            <h4>Already have an account?</h4>
+            <a  class = "sign" href="">Login!</a>
+        </div>
+
+        <div class="Google">
+            <div class="logo">
+                <img class = "image" src="Social%20media%20logo.png" alt="">
+            </div>
+            <a class = "sign" href="">Continue with Google</a>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
